@@ -1,0 +1,498 @@
+* {
+  background-color: ;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; /* adjust to taste */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/* Background overlay and centering styling */
+.heroic {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+/* Animation trigger class */
+.fade-spread {
+  animation: spreadIn 1.5s ease-out forwards;
+}
+
+/* Keyframes for the spreading-from-center effect */
+@keyframes spreadIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+    letter-spacing: -5px;
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.05);
+    letter-spacing: 2px;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    letter-spacing: 1px;
+  }
+}
+
+/* Optional fine-tuning for text */
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-sub {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  animation: fadeUp 1.8s ease-out forwards;
+}
+
+/* Subtext gently fades upward after main title */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.logo-img {
+  height: 100px;
+  width: 100px;
+  transform: rotate(-15deg);
+  border-radius: 10px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: ;
+}
+.listroom {
+  margin-left: 40px;
+}
+.room {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: "20px";
+  background-color: whitesmoke;
+  border-radius: 30px;
+}
+.deluxe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background: linear-gradient(to right, purple, pink);
+  display: "flex";
+  height: 600px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.roomdeluxe {
+  display: flex;
+  flex-direction: row;
+}
+.exquisite {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background: linear-gradient(to bottom, pink, purple);
+  height: 600px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.single {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, purple, pink);
+  height: 600px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  gap: 50px;
+}
+#amenities-one {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #dadadf;
+}
+
+#amenities-two {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #dadadf;
+}
+#amen {
+  text-align: center;
+  font-size: 20px;
+  color: purple;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 30px 50px;
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.1rem;
+  justify-content: space-between;
+  margin-top: 70px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: whitesmoke;
+  height: 500px;
+}
+.bookings {
+  background-image: Room.png;
+}
+
+.bookings h2 {
+  font-family: serif;
+  margin-top: 50px;
+}
+
+.book-stay h2 {
+  font-weight: bold;
+}
+#book {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+#but-right {
+  background-color: blue;
+  margin-left: 1000px;
+}
+
+#but-select {
+  background-color: blue;
+  margin-left: 1000px;
+}
+.book-stay {
+  margin: 50px auto;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.room-stay {
+  border: solid 1px;
+  padding: 12px;
+}
+.button-cont {
+  display: flex;
+  gap: 70px;
+}
+.guest-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 50px;
+}
+.About {
+  background: linear-gradient(to right, pink, purple);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-sec {
+  height: auto;
+  gap: 50px;
+  padding-top: 1px;
+}
+
+#room {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px 50px;
+  border-radius: 50px;
+}
+
+#phonecone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+#phonecon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+}
+.phone {
+  background: linear-gradient(to right, pink, purple);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.cone {
+  background-color: white;
+  border-radius: 5px;
+  height: 150px;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.ctwo {
+  border-radius: 5px;
+  height: 150px;
+  width: 300px;
+}
+
+.span-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center horizontally */
+  text-align: center;
+  gap: 10px;
+}
+
+.span-col .line {
+  display: block;
+}
+
+.cons {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.con-one {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+#con-sec h1 {
+  text-align: center;
+}
+.con-one span {
+  text-align: left;
+}
+
+.navbar li {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.profile {
+  background-color: purple;
+}
+#profile {
+  height: 150px;
+  background-color: purple;
+}
+.book-stay {
+  background-color: ;
+}
+.book {
+  background-color: #dadadf;
+}
+#con-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pes {
+  background: linear-gradient(to right, #890e85, purple);
+  padding-top: 180px;
+}
+.Roombutton {
+  background-color: #890e85;
+  margin-left: 35px;
+  font-size: 15px;
+
+  width: 100px;
+}
+.room h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* ====================================================== */
+/* -------------------   MEDIA QUERIES   ---------------- */
+/* ====================================================== */
+
+/* ========= MOBILE (phones) - max 768px ========= */
+@media (max-width: 768px) {
+  /* HERO */
+  .heroic {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-sub {
+    font-size: 1rem;
+  }
+
+  /* NAVBAR */
+  .navbar ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  /* ROOMS SECTIONS */
+  .deluxe,
+  .exquisite,
+  .single {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+    gap: 20px;
+  }
+
+  .room {
+    width: 90%;
+    height: auto;
+  }
+
+  .room img {
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  .Roombutton {
+    margin-left: 0;
+  }
+
+  /* AMENITIES */
+  #amenities-one,
+  #amenities-two {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+    padding: 20px 0;
+  }
+
+  #amen {
+    width: 90%;
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  /* ABOUT PAGE */
+  .About span {
+    font-size: 50px !important;
+  }
+
+  .wrap-img {
+    height: 70px !important;
+    width: 80px !important;
+  }
+
+  .span-col span {
+    font-size: 18px;
+  }
+}
+
+/* ========= TABLETS (768px - 1024px) ========= */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* HERO */
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .hero-sub {
+    font-size: 1.3rem;
+  }
+
+  /* NAVBAR */
+  .navbar ul {
+    gap: 40px;
+  }
+
+  /* ROOMS */
+  .deluxe,
+  .exquisite,
+  .single {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .room {
+    width: 260px;
+  }
+
+  /* AMENITIES */
+  #amenities-one,
+  #amenities-two {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 40px;
+    padding: 40px 0;
+  }
+
+  /* ABOUT PAGE */
+  .About span {
+    font-size: 70px;
+  }
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
